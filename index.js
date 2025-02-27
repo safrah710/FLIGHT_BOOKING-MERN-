@@ -6,7 +6,7 @@ const app=express();
 app.use(express.json());
 app.use(cors());
 app.use(controller);
-const port=10000;
+const port=10000|| process.env.PORT;
 app.listen(port,()=>{
     console.log(`server is running at ${port}`)
 })
