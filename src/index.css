@@ -1,0 +1,672 @@
+/*start*/
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.body{
+    background-image: url("img 1.webp");
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-family: "Jersey 15", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+}
+.mid{
+  font-family: "Jersey 15", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    align-items: center;
+    margin-left:200px;
+    transition: transform 0.3s;
+}
+.mid:hover{
+    transform: translateY(-10px);
+}
+.but{
+    margin-left:100px;
+}
+.but1,.but2{
+  font-family: "Jersey 15", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+    padding:20px 30px 20px 30px;
+    margin-right:20px;
+    border:none;
+    background-color: rgb(0, 0, 0,0.7);
+    color:white;
+    border-radius: 20px;
+}
+.but1:hover{
+    background-color: black;
+}
+.but2:hover{
+    background-color: black;
+}
+/*login*/
+.top{
+  display: flex;
+  margin-left:60px;
+}
+.fly{
+  position:relative;
+  top:25px;
+  left:10px;
+}
+.login{
+  margin-left:34%;
+  margin-top:5%;
+  width:200px;
+  height:260px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:70px;
+  border-radius: 10px;
+  padding-top:10px;
+}
+.para1{
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 30px;
+  align-items: centre;
+  text-align: center;
+}
+ .inp1,.inp2{
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+ font-size: 20px;
+  border:1px solid black;
+  border-radius:20px;
+  padding:5px 5px 5px 5px;
+  font-size: 20px;
+} 
+.but3{
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  margin-top:30px;
+  margin-left:60px;
+  padding:7px 25px 7px 26px;
+  border-radius:20px;
+  border:none;
+  color:white;
+  background-color: black;
+  font-size: 20px;
+}
+.para2{
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
+  margin-left:31px;
+}
+.para2:hover{
+  opacity: 0.5;
+}
+.but3:hover{
+  opacity: 0.5;
+}
+/*signup*/
+.signup{
+  margin-left:34%;
+  margin-top:5%;
+  width:200px;
+  height:250px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:70px;
+  border-radius: 10px;
+  padding-top:10px;     
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+.signup1{
+  margin-left:34%;
+  margin-top:5%;
+  width:200px;
+  height:350px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 255, 0.6) 0px 3px 8px;
+  padding:70px;
+  border-radius: 10px;
+  padding-top:10px;     
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+.signup::-webkit-scrollbar{
+  width:2px;
+}
+.signup1::-webkit-scrollbar{
+  width:2px;
+}
+.top1{
+  display: flex;
+  margin-left:30px;
+}
+.fly2{
+  position:relative;
+  top:25px;
+  left:10px;
+}
+.para2{
+  font-size: 30px;
+  align-items: centre;
+  text-align: center;
+}
+.inp1,.inp2,.inp3,.inp4,.inp5,.inp6,.inp7,.inp8,.inp9{
+  border: 1px solid rgba(0, 0, 255, 0.3);
+  border-radius:20px;
+  padding:5px 5px 5px 20px;
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+}
+.inp9{
+  border: 1px solid rgba(0, 0, 255, 0.3);
+
+  width:220px;
+}
+.but4{
+  font-family: "Jersey 15", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  margin-top:30px;
+  margin-left:60px;
+  padding:7px 25px 7px 25px;
+  border-radius:20px;
+  border:none;
+  color:white;
+  background-color: rgba(0,0,255,0.8);
+}
+.but4:hover{
+  opacity:0.5;
+}
+/*Dashboard*/
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Giga", serif;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 255, 0.6) 0px 3px 8px;
+}
+
+.pr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.p1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.p2{
+  margin-left:600px;
+}
+
+.p2,
+.p3 {
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s, opacity 0.3s;
+}
+.p3{
+  margin-left:40px;
+}
+
+.p2:hover,
+.p3:hover {
+  color: blue;
+  opacity: 0.7;
+}
+
+.dbut1 {
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color:rgba(0, 0, 255, 0.3);
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s, opacity 0.3s;
+  margin-left:30px;
+}
+
+.dbut1:hover {
+  color: blue;
+  opacity: 0.7;
+}
+
+/* Middle Section */
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 80%;
+  height: 100px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 255, 0.3);
+}
+
+.p4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+
+/* Booking Section */
+.booking {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 255, 0.4);
+}
+
+.booking1 {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 0, 255, 0.5);
+  border-radius: 8px;
+}
+
+.p5 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.booking2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.opt1,
+.date1 {
+  font-family: "Lexend Giga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 30%;
+  border: 1px solid rgba(0, 0, 255, 0.3);
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.5);
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.opt1:hover,
+.date1:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  transform: scale(1.05);
+}
+
+.dbut2 {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.dbut3{
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 255, 0.5);
+  padding:10px 20px 10px 20px;
+  position:relative;
+  left:260px;
+}
+.dbut3:hover{
+  opacity:0.5;
+}
+.bro{
+  position:relative;
+  left:540px; 
+  top:48px;
+}
+
+.dbut2:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 255, 0.6) 0px 3px 8px;
+}
+.icon2{
+  margin-left:20px;
+}
+
+.footer .pr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer .fa-brands {
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer .fa-brands:hover {
+  color: blue;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header, .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .middle {
+    width: 90%;
+  }
+
+  .booking {
+    width: 90%;
+  }
+
+  .booking2 .opt1, .booking2 .date1 {
+    width: 100%;
+  }
+
+  .dbut2 {
+    width: 50%;
+  }
+}
+/*show*/
+.show{
+  width:80%;
+  height:100px;
+  background-color: white;
+  border:none;
+  border:1px solid rgb(0,0,255,0.5);
+  border-radius: 20px;
+  margin:20px 20px 20px 100px;
+  padding:20px;
+}
+.show{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sp1{
+  font-size: 12px;
+  margin-bottom:30px;
+}
+.sp2{
+  font-size:10px;
+}
+.sbut5{
+    padding:10px 40px 10px 40px;
+    background-color: rgb(0,0,255,0.4);
+    border:none;
+    border-radius:10px;
+}
+.sbut6{
+  padding:10px 40px 10px 40px;
+  background-color: #ff0000;
+  border:none;
+  border-radius:10px;
+  margin-top:10px;
+  padding:10px 50px 10px 50px;
+}
+
+.no-flights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+/* Booking Section */
+.booking-section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b5a9f3;
+}
+
+/* Heading */
+.booking-section h2 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4a4a4a;
+}
+
+.input-group input {
+  padding: 12px;
+  border: 1px solid #b5a9f3;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #8a7ce7;
+}
+
+/* Add Button */
+.add-btn {
+  background-color: #8a7ce7;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #6f5be7;
+}
+
+/* Passenger List */
+.passenger-list {
+  margin-top: 20px;
+}
+
+.passenger-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f0fc;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.passenger-item p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left:20px;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+/* Total Price */
+.total-price {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Proceed Button */
+.proceed-btn {
+  background-color: #4caf50;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.proceed-btn:hover {
+  background-color: #3e8e41;
+}
+.bbut1{
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 255, 0.5);
+  padding:10px 40px 10px 40px;
+  position:relative;
+  left:260px;
+}
+.view{
+  width:1200px;
+  height:400px;
+  border:1px solid rgb(0,0,255,0.4);
+  border-radius:30px;
+  margin:20px;
+}
+.pr1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left:450px;
+}
+/* View Container */
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Ticket Card */
+.ticket-card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+}
+
+.ticket-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ticket-card p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Print Button */
+.print-btn {
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.print-btn:hover {
+  background-color: #218838;
+}
